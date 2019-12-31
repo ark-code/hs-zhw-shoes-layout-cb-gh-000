@@ -303,3 +303,32 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/********** grid **********/
+
+.first{
+  clear: both;
+}
+
+.col-1{
+  width:100%;
+  display: block;
+  float: left;
+  margin: 10px 0;
+}
+
+.col-2{
+  width: 62.66%;
+  display: block;
+  margin: 10px 20px 20px 0;
+  float: left;
+}
+
+.col-3{
+  width: 30.33%;
+  display: block;
+  margin: 10px 20px 20px 0;
+  float: left;
+}
+
+
